@@ -1,16 +1,65 @@
-* {
-    margin: 0;
-    padding: 0;
+*  {
+    
+
+    
+    margin: 10;
+    padding: 20;
     font-family: sans-serif;
+    
 }
+
+
 
 body {
     background: #eeeeee;
 }
 
+.shadow {
+    box-shadow: 0px 2px 5px 10px rgb(252, 248, 248);
+
+}
+
+h1 {
+    margin: 10px 10%;
+    padding: 20px;
+    text-align: center;
+    background: rgb(241, 247, 244);
+    border: 4px rgb(243, 248, 242);
+    border-radius: 15px;
+    border-color: aquamarine;
+}
+h2 {
+    margin: 10px 10%;
+    padding: 10px;
+    text-align: center;
+    background: rgb(251, 253, 252);
+}
+
 .navbar {
-    display: flex;
-    justify-content: space-around;
+    width: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 30px;
+    background-color: rgb(98, 245, 130);
+    
+}
+
+.nav-item {
+
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 20pt;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#content{
+    margin-left: 200px;
+    margin-top: -100px;
+    
 }
 
 /* Implementieren Sie Ihre Änderungen hier. Lassen Sie den Code oben so wie er
