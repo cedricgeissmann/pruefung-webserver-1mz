@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: arial;
 }
 
 body {
@@ -16,21 +16,21 @@ body {
 /* Implementieren Sie Ihre Änderungen hier. Lassen Sie den Code oben so wie er
 * ist!!! */
 .titel {
-  text-align: center;
-  border: 5px solid green;
+  text-align: right;
+  border: 5px solid blue;
   margin:10px;
 }
 
 .text {
-    background-color: white;
+    background-color: yellow;
     margin:10px;
     margin-left: 200px;
     margin-right:200px;
 }
  
 .nav-link {
-color:white;
-background:green;
+color:yellow;
+background:purple;
 font-size: 20px;
 text-decoration: none;
 margin: 50px;
@@ -51,4 +51,11 @@ padding: 20px;
     box-shadow: 0px 2px 5px 2px darkgrey;
 
 }
+
+body {
+    background: #ff0000;
+}
+
+
+
 
