@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>Resultate</h2>
+    {% for entry in results %}
+    <p>
+    {{entry}}
+</p>
+    {% endfor %}
+
+{% endblock %}
