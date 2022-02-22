@@ -24,6 +24,9 @@ def scraping():
     data = load_json("data-to-scrape.json")
     return render_template("scraping.html", table=data)
 
+@app.route("/results")
+def scraping():
+    return render_template("results.html")
 
 # starts the webserver
 if __name__ == "__main__":
