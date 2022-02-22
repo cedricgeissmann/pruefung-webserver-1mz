@@ -15,3 +15,26 @@ body {
 
 /* Implementieren Sie Ihre Änderungen hier. Lassen Sie den Code oben so wie er
 * ist!!! */
+head {
+    
+    text-align: center;
+    background-color: #eeeeee;
+}
+.navbar {
+    width: 100%;
+    padding: 8px;
+    background-color: #ffffff;
+    border-color: lightgreen;
+}
+h1 {
+    box-shadow: 0px 2px 5px 2px rgb(86, 224, 132);
+    border: rgb(86, 224, 132);
+    width: 98%;
+    height: 50px;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.nav-item {
+    point: none;
+}
