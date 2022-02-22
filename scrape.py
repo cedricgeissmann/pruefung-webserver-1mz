@@ -15,7 +15,7 @@ def main():
     # select your objects - ich habe versucht, durch id(True) nur die Namen mit der Id true einzufügen
 
     elements = [elem for elem in soup.select('.scrape-this')]
-    select = id(True)
+    selectors = [True]
 
     print(f"Es wurden {len(elements)} Elemente gefunden.")
 
