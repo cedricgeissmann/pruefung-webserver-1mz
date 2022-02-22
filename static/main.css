@@ -7,10 +7,35 @@
 body {
     background: #eeeeee;
 }
+h1 { 
+    text-align: center;
+    border: solid 3px #81c08f;
+    padding: 10px 20px;
+    margin: 20px;
 
+}
+
+.nav-item {
+    list-style: none;
+}
+.nav-link {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 20px
+}
 .navbar {
     display: flex;
     justify-content: space-around;
+    border: solid 25px #81c08f;
+    background-color:#81c08f;
+}
+
+#content {
+    border: solid 3px white;
+    background-color: white;
+    margin: 40px 150px;
+    padding: 15px;
 }
 
 /* Implementieren Sie Ihre Änderungen hier. Lassen Sie den Code oben so wie er
