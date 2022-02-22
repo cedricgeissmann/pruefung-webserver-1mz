@@ -21,7 +21,7 @@ body {
 .title{
     text-align: center;
     padding: 20px;
-    border: 1px solid green;
+    border: 2px solid green;
     margin: 10px;
 }
 .nav-link{
