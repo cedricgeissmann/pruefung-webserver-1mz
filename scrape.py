@@ -15,6 +15,11 @@ def main():
 
     print(f"Es wurden {len(elements)} Elemente gefunden.")
 
+def filter_func(elem):
+    return True
+
+bold = list (filter(filter_func,bold))
+
     data = []
 
     for i, elem in enumerate(elements):
