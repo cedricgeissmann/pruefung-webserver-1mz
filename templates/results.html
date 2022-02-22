@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>Resultate</h2>
+    <div class="card">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin: 30px 5%;
+        }
+        td {
+            width: 50%;
+            padding: 10px;
+        }
+        tr:nth-child(even) {
+            background: #dddddd;
+        }
+        tr:hover {
+            background: #bbbbbb;
+        }
+    </style>
+
+    <table>
+        {% for row in table %}
+        <tr>
+            <td class="scrape-this">
+                {% if row.strong %}
+                <strong> {{ row.name }} </strong>
+                {% endif %}
+            </td>
+            <td>
+                {{ row.lastname }}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    </div>  
+{% endblock %}

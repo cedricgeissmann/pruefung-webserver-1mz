@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #eeeeee;
+    background: #5edfc9;
 }
 
 .navbar {
@@ -15,3 +15,38 @@ body {
 
 /* Implementieren Sie Ihre Änderungen hier. Lassen Sie den Code oben so wie er
 * ist!!! */
+
+h1 {
+    text-align: left;
+    margin: 40px;
+    margin-right: 500px;
+    padding: 50px;
+    background: rgb(35, 15, 214);
+    border: rgb(100, 192, 146);
+}
+
+.navbar {
+    background: rgb(81, 143, 81);
+    margin: 100px;
+    padding: 20px;
+    list-style: none;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 15pt;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+#content {
+    margin-left: 500px;
+    background: rgb(73, 9, 116);
+    margin-right: 800px;
+    margin-top: 30px;
+    padding: 10px;
+}
