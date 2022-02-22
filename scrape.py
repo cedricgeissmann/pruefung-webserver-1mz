@@ -11,7 +11,7 @@ def main():
     soup = BeautifulSoup(response.content, 'html.parser')
 
     # select your objects
-    elements = [elem for elem in soup.select('.scrape-this, strong')]
+    elements = [elem for elem in soup.select('.scrape-this, strong=true')]
 
     print(f"Es wurden {len(elements)} Elemente gefunden.")
 
@@ -29,6 +29,8 @@ def filter_func(elem):
 
 # apply filter function
 table_rows = list(filter(filter_func, table_rows))
+
+selectors = []
 
 
 
