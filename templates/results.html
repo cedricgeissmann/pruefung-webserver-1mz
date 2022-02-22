@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>Resultate</h2>
+    {% for entry in results %}
+    <div class="card">
+        <h3>
+            {{ entry.name}}
+        </h3>
+    <p>
+       ID: {{ entry.id}}
+    </p>
+    </div>
+    {% endfor %}
+{% endblock %}
