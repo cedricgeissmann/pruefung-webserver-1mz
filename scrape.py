@@ -4,7 +4,7 @@ import requests
 import json
 
 
-d
+
 
 def main():
     # get the URL in a useable form
