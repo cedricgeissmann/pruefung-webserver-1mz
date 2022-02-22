@@ -11,7 +11,41 @@ body {
 .navbar {
     display: flex;
     justify-content: space-around;
+   
 }
 
 /* Implementieren Sie Ihre Änderungen hier. Lassen Sie den Code oben so wie er
 * ist!!! */
+h1{ 
+text-align: center;
+border-radius: 50px;
+border-color: green;
+font-weight: bold;
+
+
+
+}
+h2{ 
+margin-left: 200px;
+margin-top: 20px;
+
+
+}
+p{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.nav-link{ 
+    box-sizing: content-box;
+    border-color: green;
+
+}
+.shadow {
+    border: content-box;
+    border-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    
+}
+body{
+    background-color: rgb(224, 221, 221);
+}
