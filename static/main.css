@@ -15,3 +15,43 @@ body {
 
 /* Implementieren Sie Ihre Änderungen hier. Lassen Sie den Code oben so wie er
 * ist!!! */
+head {
+    
+    text-align: center;
+    background-color: #eeeeee;
+}
+.navbar {
+    width: 100%;
+    padding: 8px;
+    background-color:rgb(86, 224, 132);
+    color:#eeeeee
+    
+}
+h1 {
+    box-shadow: 0px 2px 5px 2px rgb(86, 224, 132);
+    border: rgb(86, 224, 132);
+    width: 98%;
+    height: 50px;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.nav-item {
+    list-style-type: none;
+    color: white
+}
+
+#content {
+    margin-top: 25px;
+    margin-left: 75px;
+    background-color: #eeeeee;
+}
+.card {
+    border-color: #eeeeee;
+    border-style: dotted;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+
+}
