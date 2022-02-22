@@ -25,6 +25,12 @@ def scraping():
     return render_template("scraping.html", table=data)
 
 
+@app.route("/results")
+def results():
+    return render_template("results.html", results=load_selectors())
+    
 # starts the webserver
 if __name__ == "__main__":
     app.run()
+
+results
