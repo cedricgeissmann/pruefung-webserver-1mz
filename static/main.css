@@ -43,3 +43,12 @@ background: green;
 padding: 20px;
 }
 
+.card{
+
+    margin-left: 210px;
+    margin-right: 210px;
+    margin: 10px;
+    box-shadow: 0px 2px 5px 2px darkgrey;
+
+}
+

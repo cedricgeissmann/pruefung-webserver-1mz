@@ -8,8 +8,8 @@ app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 
-def load_json(filename):
-    with open(filename, 'r') as f:
+def load_json():
+    with open(data.json, 'r') as f:
         return json.load(f)
 
 
@@ -25,9 +25,11 @@ def scraping():
     return render_template("scraping.html", table=data)
 
 @app.route("/results")
-def scraping():
-    return render_template("results.html")
+def results():
+    return render_template("results.html", results=load_json())
 
 # starts the webserver
 if __name__ == "__main__":
     app.run()
+
+
