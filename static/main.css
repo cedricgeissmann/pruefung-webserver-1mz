@@ -15,3 +15,28 @@ body {
 
 /* Implementieren Sie Ihre Änderungen hier. Lassen Sie den Code oben so wie er
 * ist!!! */
+.navbar {
+    background-color: #8ebb85;
+    padding: 20px;
+
+}
+.nav-item {
+    list-style: none;
+}
+h1 {
+text-align: center;
+margin: 40px 200px;
+}
+.nav-link {
+    font-size: 15pt;
+    color: white;
+    text-decoration: none;
+    font-weight: 600
+}
+#content {
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+}
