@@ -1,6 +1,8 @@
 #import necessary modules
 from flask import Flask, render_template
 import json
+from bs4 import BeautifulSoup
+import requests
 
 
 # set up flask webserver
@@ -18,6 +20,10 @@ def load_json(filename):
 def home():
     return render_template("index.html")
 
+@app.route("/results")
+def results():
+     data = load_json("data.json")
+    return render_template("results.html",table=data)
 
 @app.route("/scraping")
 def scraping():
