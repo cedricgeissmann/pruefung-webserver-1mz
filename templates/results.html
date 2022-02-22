@@ -16,12 +16,21 @@
         <li class="nav-item">
             <a class="nav-link" href="/scraping">Scraping</a>
         </li>
-       
-    
-    </ul>
-    <div id="content">
-    {% block content %}
-    {% endblock %}
+        <li class="nav-item">
+            <a class="nav-link" href="/results">Resultate</a>
+        </li>
+
+    <div class="card">
+        {% extends "base.html" %}
+        {% block content %}
+            <h3>Resultate</h3>
+          {%for entry in results %}
+          <p>
+          {{entry}}
+          </p>
+          {% endfor %}
+        {% endblock %}
     </div>
 </body>
 </html>
+

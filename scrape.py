@@ -19,10 +19,20 @@ def main():
 
     for i, elem in enumerate(elements):
         data.append({"id": i, "name": elem.text.strip()})
+        
 
     with open("data.json", 'w') as f:
         json.dump(data, f, indent=4)
 
+def filter_func(elem):
+    return True
+    td{ font-size: bold}
+
+
 
 if __name__ == "__main__":
     main()
+
+   
+
+
