@@ -10,8 +10,42 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;  
+    padding: 20px;
+    background-color: green
 }
+
+
+
+h1 {
+    text-align: center;
+    margin: 15px 60px;
+    background: white;
+    padding: 12px;
+    border: 1px solid green; 
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 20pt;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+ #content {
+     margin-left: 140px;
+     margin-right: 140px;
+     padding: 5px;
+     margin-top: 20px;
+     background: white;
+
+ }
+
+
+
 
 /* Implementieren Sie Ihre Änderungen hier. Lassen Sie den Code oben so wie er
 * ist!!! */
