@@ -21,7 +21,7 @@ def home():
 
 @app.route("/scraping")
 def scraping():
-    data = load_json("data-to-scrape.json")
+    data = load_json("data.json")
     return render_template("scraping.html", table=data)
 
 
