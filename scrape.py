@@ -19,6 +19,7 @@ def main():
 
     for i, elem in enumerate(elements):
         data.append({"id": i, "name": elem.text.strip()})
+        
 
     with open("data.json", 'w') as f:
         json.dump(data, f, indent=4)
@@ -26,3 +27,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+   
+
+
