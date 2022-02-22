@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>results</h2>
+    {% for entry in results %}
+    <div class="card">
+        <p ID="1">
+        {{entry}}
+    </p>
+    </div>
+        {%endfor%}
+    {% endblock %}
