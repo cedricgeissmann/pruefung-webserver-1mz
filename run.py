@@ -29,7 +29,6 @@ def results():
     data = load_json("data-to-scrape.json")
     return render_template("results.html", table=data)
 
-
 # starts the webserver
 if __name__ == "__main__":
     app.run()
