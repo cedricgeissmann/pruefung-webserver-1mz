@@ -13,7 +13,7 @@ def main():
     # select your objects
     elements = [elem for elem in soup.select('.scrape-this')]
 
-    print(f"Es wurden {len(elements)} Elemente gefunden.")
+    print(f"Es wurden {len(true)} Elemente gefunden.")
 
     data = []
 
