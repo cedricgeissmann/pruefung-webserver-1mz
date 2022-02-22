@@ -13,6 +13,11 @@ def main():
     # select your objects
     elements = [elem for elem in soup.select('.scrape-this')]
 
+    filtered = []
+    for elem in soup.select:
+    if "strong"
+        filtered.append(strong)
+
     print(f"Es wurden {len(elements)} Elemente gefunden.")
 
     data = []
