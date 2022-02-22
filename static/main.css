@@ -13,5 +13,40 @@ body {
     justify-content: space-around;
 }
 
+h1 {
+    margin: 20px;
+    outline: green;
+    padding: 20px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.navbar {
+    background-color: green;
+    color: green;
+    padding: 15px;
+    font-size: border;
+    text-decoration: none;
+}
+
+.nav-link {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    font-size: border;
+    text-decoration: none;
+}
+
+#content {
+   margin-top: 30px;
+   margin-right: 100px;
+   margin-left: 100px;
+   background-color: white;
+   padding: 15px;
+}
+
+
 /* Implementieren Sie Ihre Änderungen hier. Lassen Sie den Code oben so wie er
 * ist!!! */

@@ -17,6 +17,10 @@
         tr:hover {
             background: #bbbbbb;
         }
+
+        .card  {
+            outline: black;
+        }
     </style>
 
     <table>
@@ -24,7 +28,7 @@
         <tr>
             <td class="scrape-this">
                 {% if row.strong %}
-                <strong> {{ row.name }} </strong>
+                <h3> {{ row.name }} </h3>
                 {% else %}
                 {{ row.name }}
                 {% endif %}
