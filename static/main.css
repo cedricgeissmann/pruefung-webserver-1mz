@@ -13,5 +13,61 @@ body {
     justify-content: space-around;
 }
 
-/* Implementieren Sie Ihre Änderungen hier. Lassen Sie den Code oben so wie er
-* ist!!! */
+
+#content {
+
+
+
+}
+
+
+h1 {
+
+text-align: center;
+margin: 20px 30px;
+background-color: white;
+padding: 10px;
+border-color: rgb(23, 177, 23);
+border-width: 2px;
+border-style: solid;
+}
+
+
+.navbar{
+
+    background-color:rgb(23, 177, 23) ;
+    width:1800px ;
+    margin-left:-20px ;
+    margin-right: 20px;
+    padding: 12px;
+    ;
+    
+
+
+}
+
+
+
+.nav-link {
+    font-size: 20pt;
+    color:white;
+    text-decoration: none;
+    font-weight: 400;
+    margin: -8cm;
+    
+}
+
+.nav-item {
+    list-style: none;
+}
+
+#content {
+    margin-left: 200px;
+    background-color: white;
+    width: 60%;
+    height: 70px;
+    margin-top: 20px;
+  
+}
+
+
