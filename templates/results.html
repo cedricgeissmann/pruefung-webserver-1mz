@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>Resultate</h2>
+
+    <a href="/results">Run Results</a>
+    <style>
+       .name{
+           <h3>name</h3>
+       }
+        id{
+            <p>ID</p>
+        }
+    </style>
+
+    <table>
+        {% for row in table %}
+        <tr>
+            <div class="card">
+                {% if row.strong %}
+                <h3> {{ name }} </h3>
+                {% else %}
+                {{ name }}
+                {% endif %}
+            </td>
+            <td>
+                {{ ID}}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

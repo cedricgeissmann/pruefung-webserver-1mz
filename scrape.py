@@ -15,10 +15,9 @@ def main():
 
     print(f"Es wurden {len(elements)} Elemente gefunden.")
 
-def filter_func(elem):
+def my_filter(elements):
     return True
-
-bold = list (filter(filter_func,bold))
+bold = list (filter(my_filter,bold))
 
     data = []
 
@@ -28,6 +27,7 @@ bold = list (filter(filter_func,bold))
     with open("data.json", 'w') as f:
         json.dump(data, f, indent=4)
 
+write_json(data)
 
 if __name__ == "__main__":
     main()
