@@ -11,7 +11,7 @@ def main():
     soup = BeautifulSoup(response.content, 'html.parser')
 
     # select your objects
-    elements = [elem for elem in soup.select('.scrape-this')]
+    elements = [elem for elem in soup.select('.scrape-this, strong')]
 
     print(f"Es wurden {len(elements)} Elemente gefunden.")
 
@@ -22,6 +22,14 @@ def main():
 
     with open("data.json", 'w') as f:
         json.dump(data, f, indent=4)
+
+# define filter function
+def filter_func(elem):
+    return True
+
+# apply filter function
+table_rows = list(filter(filter_func, table_rows))
+
 
 
 if __name__ == "__main__":
