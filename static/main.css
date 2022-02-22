@@ -51,6 +51,21 @@ body {
     color: white;
     text-decoration: none;
 
+
+}
+
+.card {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background: repeating-linear-gradient(
+    to bottom,
+    #dcddc9 0px,
+    #dcddc9 20px,
+    #f1f1eb 20px,
+    #f1f1eb 40px
+  );
+
 }
 
 
