@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 import json
 
-
+@app.route ("/results")
 def main():
     # get the URL in a useable form
     url = "http://localhost:5000/scraping"
