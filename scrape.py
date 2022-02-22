@@ -11,9 +11,16 @@ def main():
     soup = BeautifulSoup(response.content, 'html.parser')
 
     # select your objects
+    def f_func(item):
+        if strong(item) == True:
+            return True
+        return False
+
+    
     elements = [elem for elem in soup.select('.scrape-this')]
 
-    print(f"Es wurden {len(elements)} Elemente gefunden.")
+
+    print(f"Es wurden {len(list(filter(f_func, elements)))} Elemente gefunden.")
 
     data = []
 
