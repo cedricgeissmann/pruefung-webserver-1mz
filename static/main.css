@@ -17,8 +17,9 @@ body {
 * ist!!! */
 
 h1 {
-    border: green;
-    border: 20px;
+    border-style: dotted;
+    border-radius: 20%;
+    border-color: green;
     text-align: center;
     padding: 10px;
     margin: 20px 20%;

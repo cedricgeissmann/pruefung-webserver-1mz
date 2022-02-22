@@ -28,8 +28,7 @@ def scraping():
     return render_template("scraping.html", table=data)
 
 def my_filter(elem):
-        def filter_func(elem):
-            return render_template(scraping.html)
+    return render_template(scraping.html)
 
 
 # starts the webserver
