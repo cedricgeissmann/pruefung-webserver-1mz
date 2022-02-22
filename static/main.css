@@ -26,3 +26,9 @@ div {
     background: green;
     margin-top: 20px;
 }
+
+#content {
+    margin-top: 40px;
+    margin-left: 90px;
+    width: 800px
+}
