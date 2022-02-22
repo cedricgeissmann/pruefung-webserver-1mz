@@ -47,3 +47,11 @@ h1 {
     margin-left: 75px;
     background-color: #eeeeee;
 }
+.card {
+    border-color: #eeeeee;
+    border-style: dotted;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+
+}

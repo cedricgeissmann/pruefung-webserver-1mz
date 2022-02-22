@@ -18,11 +18,16 @@ def load_json(filename):
 def home():
     return render_template("index.html")
 
+@app.route("/results")
+def Resultate():
+    data = load_json("data-to-scrape.json")
+    return render_template("results.html")
 
 @app.route("/scraping")
 def scraping():
     data = load_json("data-to-scrape.json")
     return render_template("scraping.html", table=data)
+
 
 
 # starts the webserver
