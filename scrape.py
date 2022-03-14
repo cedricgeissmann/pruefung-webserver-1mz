@@ -1,4 +1,5 @@
 # import necessary modules
+
 from bs4 import BeautifulSoup
 import requests
 import json
@@ -26,3 +27,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
